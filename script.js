@@ -4,7 +4,6 @@ const fetchArticles = async () => {
 
     return data;
 }
-
 document.addEventListener("DOMContentLoaded",
 
     async () => {

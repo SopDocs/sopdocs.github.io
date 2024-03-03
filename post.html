@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BlogX</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <!-- <script src="script.js" defer></script> -->
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/CDNSFree2/PrismJS@latest/prism.min.css">
 </head>
 <body>
     <nav>
@@ -21,53 +23,56 @@
         <div class="postcontainer">
             <article>
                 <h2 id="title">Title of the post from BlogX</h2>
-                <h1 id="placeholder-article">Placeholder Article</h1>
-                <h2 id="introduction">Introduction</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ornare, justo vel euismod suscipit, risus est condimentum purus, a vehicula purus libero vel augue. Proin vitae lectus justo. Nulla ac posuere augue, sed congue velit. Sed auctor, augue sit amet ultrices aliquam, ipsum risus eleifend justo, non tristique justo turpis sed purus. Aenean et justo tellus. Vivamus volutpat mi sed eros venenatis, ac vehicula quam sodales. </p>
-                <h2 id="main-points">Main Points</h2>
-                <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et repellendus odio at quas explicabo voluptates reprehenderit, rem ex, culpa ut deserunt. Laudantium reprehenderit, nisi adipisci quisquam maiores fugit praesentium enim!</blockquote>
-                <h3 id="point-1-sed-dictum">Point 1: Sed dictum</h3>
-                <p>Sed dictum, urna eu feugiat luctus, metus dui tempus justo, vel consectetur lorem velit nec nulla. Sed bibendum odio at dolor tempus placerat. Integer dignissim feugiat eros ut tincidunt. Donec gravida bibendum mauris vel rutrum. Fusce malesuada turpis auctor tortor feugiat, at fermentum leo feugiat.</p>
-                <h3 id="point-2-phasellus-ultricies">Point 2: Phasellus ultricies</h3>
-                <p>Phasellus ultricies velit nec eros scelerisque, vel ultrices velit elementum. Sed ac metus nec odio ultricies mattis sit amet at nunc. Nulla facilisi. Cras in ligula euismod, efficitur risus ac, pellentesque purus. Integer volutpat libero nec mauris tempor, in tristique urna suscipit.</p>
-                <h3 id="point-3-pellentesque-habitant-morbi">Point 3: Pellentesque habitant morbi</h3>
-                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur porta libero ac risus tincidunt, at consequat sem ultricies. Phasellus blandit urna nec lectus vestibulum, et tincidunt lorem consequat.</p>
-                <h1 id="sample-markdown">Sample Markdown</h1>
-                <p>This is some basic, sample markdown.</p>
-                <h2 id="second-heading">Second Heading</h2>
-                <ul>
-                <li>Unordered lists, and:<ol>
-                <li>One</li>
-                <li>Two</li>
-                <li>Three</li>
-                </ol>
-                </li>
-                <li>More</li>
-                </ul>
-                <blockquote>
-                <p>Blockquote</p>
-                </blockquote>
-                <p>And <strong>bold</strong>, <em>italics</em>, and even <em>italics and later <strong>bold</strong></em>. Even <del>strikethrough</del>. <a href="https://markdowntohtml.com">A link</a> to somewhere.</p>
-                <p>And code highlighting:</p>
-                <pre><code class="lang-js"><span class="hljs-keyword">var</span> foo = <span class="hljs-string">'bar'</span>;
+                <div class="article_content">
+                        <h1 id="placeholder-article">Placeholder Article</h1>
+                        <h2 id="introduction">Introduction</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ornare, justo vel euismod suscipit, risus est condimentum purus, a vehicula purus libero vel augue. Proin vitae lectus justo. Nulla ac posuere augue, sed congue velit. Sed auctor, augue sit amet ultrices aliquam, ipsum risus eleifend justo, non tristique justo turpis sed purus. Aenean et justo tellus. Vivamus volutpat mi sed eros venenatis, ac vehicula quam sodales. </p>
+                        <h2 id="main-points">Main Points</h2>
+                        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et repellendus odio at quas explicabo voluptates reprehenderit, rem ex, culpa ut deserunt. Laudantium reprehenderit, nisi adipisci quisquam maiores fugit praesentium enim!</blockquote>
+                        <h3 id="point-1-sed-dictum">Point 1: Sed dictum</h3>
+                        <p>Sed dictum, urna eu feugiat luctus, metus dui tempus justo, vel consectetur lorem velit nec nulla. Sed bibendum odio at dolor tempus placerat. Integer dignissim feugiat eros ut tincidunt. Donec gravida bibendum mauris vel rutrum. Fusce malesuada turpis auctor tortor feugiat, at fermentum leo feugiat.</p>
+                        <h3 id="point-2-phasellus-ultricies">Point 2: Phasellus ultricies</h3>
+                        <p>Phasellus ultricies velit nec eros scelerisque, vel ultrices velit elementum. Sed ac metus nec odio ultricies mattis sit amet at nunc. Nulla facilisi. Cras in ligula euismod, efficitur risus ac, pellentesque purus. Integer volutpat libero nec mauris tempor, in tristique urna suscipit.</p>
+                        <h3 id="point-3-pellentesque-habitant-morbi">Point 3: Pellentesque habitant morbi</h3>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur porta libero ac risus tincidunt, at consequat sem ultricies. Phasellus blandit urna nec lectus vestibulum, et tincidunt lorem consequat.</p>
+                        <h1 id="sample-markdown">Sample Markdown</h1>
+                        <p>This is some basic, sample markdown.</p>
+                        <h2 id="second-heading">Second Heading</h2>
+                        <ul>
+                        <li>Unordered lists, and:<ol>
+                        <li>One</li>
+                        <li>Two</li>
+                        <li>Three</li>
+                        </ol>
+                        </li>
+                        <li>More</li>
+                        </ul>
+                        <blockquote>
+                        <p>Blockquote</p>
+                        </blockquote>
+                        <p>And <strong>bold</strong>, <em>italics</em>, and even <em>italics and later <strong>bold</strong></em>. Even <del>strikethrough</del>. <a href="https://markdowntohtml.com">A link</a> to somewhere.</p>
+                        <p>And code highlighting:</p>
+                        <pre><code class="lang-js"><span class="hljs-keyword">var</span> foo = <span class="hljs-string">'bar'</span>;
 
-                <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">baz</span><span class="hljs-params">(s)</span> </span>{
-                <span class="hljs-keyword">return</span> foo + <span class="hljs-string">':'</span> + s;
-                }
-                </code></pre>
-                <p>Or inline code like <code>var foo = &#39;bar&#39;;</code>.</p>
-                <p>Or an image of bears</p>
-                <!-- <p><img loading="lazy" src="http://placebear.com/200/200" alt="bears"></p> -->
-                <p>The end ...</p>
+                        <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">baz</span><span class="hljs-params">(s)</span> </span>{
+                        <span class="hljs-keyword">return</span> foo + <span class="hljs-string">':'</span> + s;
+                        }
+                        </code></pre>
+                        <p>Or inline code like <code>var foo = &#39;bar&#39;;</code>.</p>
+                        <p>Or an image of bears</p>
+                        <!-- <p><img loading="lazy" src="http://placebear.com/200/200" alt="bears"></p> -->
+                        <p>The end ...</p>
 
-                <h2 id="conclusion">Conclusion</h2>
-                <p>In conclusion, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vestibulum fermentum erat, et posuere lorem accumsan vel. Duis id pretium dolor. Vivamus sit amet tristique lorem. Phasellus efficitur, ex id gravida elementum, leo elit faucibus lectus, nec ultricies turpis neque a eros.</p>
-                <hr>
-                <p><em>Thank you for reading! This is a placeholder article.</em></p>
-                </article>
+                        <h2 id="conclusion">Conclusion</h2>
+                        <p>In conclusion, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vestibulum fermentum erat, et posuere lorem accumsan vel. Duis id pretium dolor. Vivamus sit amet tristique lorem. Phasellus efficitur, ex id gravida elementum, leo elit faucibus lectus, nec ultricies turpis neque a eros.</p>
+                        <hr>
+                        <p><em>Thank you for reading! This is a placeholder article.</em></p>
+                    </div>
+            </article>
             <div class="comments">
             </div>
         </div>
+                
         <div class="sidebar">
             <div class="toc">
                 <h1>Table of contents</h1>
@@ -132,5 +137,6 @@
     <footer>
         <b>@Blog<span style="color: tomato;">X</span> </b> | Created with ❤️ by <a href="http://github.com/sh20raj">@sh20raj</a>
     </footer>
+    <script src="post.js"></script>
 </body>
 </html>
